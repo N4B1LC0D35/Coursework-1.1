@@ -20,7 +20,7 @@ public abstract class Shape {
     
     public abstract double getArea();
     
-    public abstract double getPermiter();
+    public abstract double getPerimeter();
     
     public void displayDescription(){
         System.out.println("I'm a Shape name " + _name);

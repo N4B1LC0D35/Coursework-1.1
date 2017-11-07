@@ -9,7 +9,7 @@ package coursework1.pkg1;
  *
  * @author M00555527
  */
-public class Rectangle extends Shape {
+public class Rectangle extends TwoDShape {
     private final double _height;
     private final double _width;
     
@@ -24,12 +24,12 @@ public class Rectangle extends Shape {
         super.displayDescription();
         System.out.println("\tI'm also a rectangle");
     }
-    @Override
-    public void double getArea() {
+   
+    public double getArea() {
         return _height * _width;
     }
-    @Override
-    public double getPerimiter() {
+    
+    public double getPerimeter() {
         return (_height + _width) *2;
     }
 }
